@@ -1,0 +1,33 @@
+# Ignore Python virtual environment
+venv/
+env/
+ifenv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables and secrets
+.env
+.ifenv
+Cheat Sheet.ipynb
+
+# Ignore compiled files
+*.o
+*.so
+*.out
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore specific paths
+/path/to/ignore/
